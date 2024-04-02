@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-image: url("/images/0.png");
+    width: 1280px;
+    height: 946px;
+    background-size: contain;
+}
