@@ -4,9 +4,60 @@
     box-sizing: border-box;
 }
 
-div {
-    background-image: url("/images/0.png");
-    width: 1280px;
-    height: 946px;
-    background-size: contain;
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.img-0 {
+    height: 730px;
+    width: 1000px;
+}
+
+.img-1 {
+    position: absolute;
+    width: 440px;
+    height: 285px;
+    left: 268px;
+    bottom: 7px;
+}
+
+.img-2 {
+    position: absolute;
+    width: 180px;
+    height: 350px;
+    right: 300px;
+    bottom: 100px;
+}
+
+.img-3 {
+    position: absolute;
+    width: 180px;
+    height: 350px;
+    right: 490px;
+    bottom: 130px;
+}
+
+.img-4 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    right: 400px;
+    bottom: 70px;
+}
+
+.img-5 {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 480px;
+    bottom: 190px;
+}
+
+.img-6 {
+    position: absolute;
+    width: 170px;
+    height: 200px;
+    left: 430px;
+    top: 120px;
 }
