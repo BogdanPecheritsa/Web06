@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="style04.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Task04</title>
 </head>
 <body>
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn">Головна</button>
+        <div class="dropdown-content">
+            <li><a href="#">Новини</a></li>
+            <li><a href="#">Акції</a></li>
+            <li><a href="#">Блог</a></li>
+        </div>
+    </div>
 
+    <div class="dropdown">
+        <button class="dropbtn">Всі продукти</button>
+        <div class="dropdown-content">
+            <li><a href="#">Продукти кат. 1+</a>
+                <ul class="nested-dropdown">
+                    <li><a href="#">Фрукти</a></li>
+                    <li><a href="#">Овочі</a></li>
+                    <li><a href="#">М'ясо</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Продукти кат. 2+</a>
+                <ul class="nested-dropdown nested-dropdown-lower">
+                    <li><a href="#">Молочні продукти</a></li>
+                    <li><a href="#">Хлібобулочні вироби</a></li>
+                </ul>
+            </li>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Про нас</button>
+        <div class="dropdown-content">
+            <p>Ми - ваш надійний постачальник продуктів!</p>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Контакти</button>
+        <div class="dropdown-content">
+            <p>Телефон: +380123456789</p>
+            <p>Email: info@example.com</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

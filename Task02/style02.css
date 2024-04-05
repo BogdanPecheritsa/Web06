@@ -8,7 +8,7 @@
 }
 
 html {
-    --bg-color: #0083dd;
+    --menu-bg-color: #0083dd;
     --white-color: #F5F5F5;
     --hover-gray-color: #C9C7D4;
     --footer-elements-width: 1000px;
@@ -25,7 +25,7 @@ body {
 }
 
 header, section {
-    background-color: var(--bg-color);
+    background-color: var(--menu-bg-color);
     height: 25px;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-color);
+    background-color: var(--menu-bg-color);
     width: 1200px;
     height: 540px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -105,7 +105,7 @@ form {
 input[type=email] {
     height: 50px;
     width: 250px;
-    background-color: var(--bg-color);
+    background-color: var(--menu-bg-color);
     border: 1px solid var(--white-color);
     border-radius: 40px;
     padding: 0 10px 0 20px;
