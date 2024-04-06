@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style05.css"/>
+    <title>Task05</title>
 </head>
 <body>
-
+<div class="form-and-poroshenko-container">
+    <form action="">
+        <div class="title-container">
+            <h2>Sign Up Today</h2>
+            vote for Poroshenko
+            <hr>
+        </div>
+        <label for="name" class="elements-container">
+            <span>What's your name?</span>
+            <input type="text" name="name" id="name" placeholder="Petro Poroshenko" required/>
+        </label>
+        <label for="email" class="elements-container">
+            <span>Where we can email you?</span>
+            <input type="email" name="email" id="email" placeholder="example@example.com" required/>
+        </label>
+        <label for="password" class="elements-container">
+            <span>Pick a password</span>
+            <input type="password" name="password" id="password" placeholder="Your Password" required/>
+        </label>
+        <label for="showpassword" class="checkbox-container">
+            <input type="checkbox" name="showpassword" id="showpassword"/>Show password
+        </label>
+        <div class="buttons">
+            <input type="submit" value="Sign up"/>
+            <div class="account-login-container">
+                Have an account?
+                <a href="#">Log in now!</a>
+            </div>
+        </div>
+    </form>
+    <div class="petro-poroshenko-container"></div>
+</div>
 </body>
 </html>
